@@ -1,5 +1,7 @@
 'use strict';
 
+require('child_process').spawnSync('node', [ 'setup' ], { stdio: 'inherit' });
+
 const { validToken } = require('./utils/telegram');
 const config = require('./config');
 const { tokens } = config;
