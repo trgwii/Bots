@@ -26,7 +26,7 @@ async function prepareConfig(config) {
 	const input = reader(rl);
 	const { tokens } = config;
 	for (const bot in tokens)
-		if (!validToken(tokens[bot])) {
+		while (!validToken(tokens[bot])) {
 			console.log('Enter token for ' + bot);
 			tokens[bot] = await input();
 		}
