@@ -1,0 +1,15 @@
+{
+  "name": "rorybot",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Thomas Rory Gummerson <thomas@gummerson.no> (https://trgwii.no)",
+  "license": "Beerware",
+  "dependencies": {
+    "telegraf": "^3.8.0"
+  }
+}
