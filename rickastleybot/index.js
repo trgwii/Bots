@@ -2,7 +2,7 @@
 
 const Telegraf = require('telegraf');
 
-const id = 'dQw4w9WgXcQ';
+const id = require('./id');
 const url = 'https://youtu.be/' + id;
 // const embedUrl = 'https://www.youtube.com/embed/' + id;
 const thumbUrl = 'https://i.ytimg.com/vi/' + id + '/maxresdefault.jpg';
