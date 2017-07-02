@@ -1,7 +1,7 @@
 'use strict';
 
 const Telegraf = require('telegraf');
-const { getArgs } = require('../utils/telegraf');
+const { getArgs } = require('../utils/telegram');
 
 const replies = require('./replies');
 const { ballCommand } = require('./8ball');

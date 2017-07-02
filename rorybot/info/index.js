@@ -2,7 +2,7 @@
 
 const { EOL } = require('os');
 const { capitalize } = require('../../utils/str');
-const { getArgs } = require('../../utils/telegraf');
+const { getArgs } = require('../../utils/telegram');
 
 const info = object => {
 	const result = [];
