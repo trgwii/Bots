@@ -1,0 +1,5 @@
+{
+	"start": "This is a bot made by @TRGWII.\nIt currently presents this message when someone types /start.\nType /help for more commands.",
+	"help": "Available commands:\n/start - Shows start message.\n/help - Shows available commands.\n/ping - Pong!\n/echo text - Prints whatever you send it.\n/info [chat/user/bot] - Shows information about the current chat, user, and bot information.\n/8ball [question] - Answers a yes or no question.\n\n/eval code - Evaluate JavaScript code.\n/math expr - Evaluate mathematical expressions.\n/apple [amount] - Prints apples!\n/isup domain - Check if a website is online.\n/whois domain - Shows domain owner information.\n/bofh - BOFH excuse.\n",
+	"ping": "Pong!"
+}

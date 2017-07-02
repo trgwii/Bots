@@ -32,7 +32,7 @@ async function prepareConfig(config) {
 		}
 	saveConfig(config);
 	rl.close();
-	console.log('config file OK');
+	if (config.debug) console.log('config file OK');
 }
 
 if (require.main === module)
