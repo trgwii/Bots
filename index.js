@@ -18,4 +18,7 @@ const roryBot = validToken(tokens.RoryBot) &&
 const tedicrossBot = validToken(tokens.TediCrossBot) &&
 	require('./tedicrossbot')(tokens.TediCrossBot);
 
+/* const r9kCipherBot = validToken(tokens.r9kCipherBot) &&
+	require('./r9kcipherbot')(tokens.r9kCipherBot); */
+
 module.exports = { dubbsBot, rickAstleyBot, roryBot };
