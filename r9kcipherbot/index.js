@@ -1,8 +1,9 @@
 'use strict';
 
+const { join } = require('path');
 const fs = require('fs');
 
-const encodeCipher = JSON.parse(fs.readFileSync('cipher.json', 'utf8'));
+const encodeCipher = JSON.parse(fs.readFileSync(join(__dirname, 'cipher.json'), 'utf8'));
 
 const decodeCipher = (obj => {
 	const result = {};

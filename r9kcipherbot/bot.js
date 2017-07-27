@@ -3,7 +3,9 @@
 const Telegraf = require('telegraf');
 const { encode, decode } = require('.');
 
-const bot = new Telegraf('436781286:AAG27D5JxP7MtpkKI4eKQLUJ8UxiG2EsB68', { username: 'r9kCipherBot' });
+module.exports = token => {
+
+const bot = new Telegraf(token, { username: 'r9kCipherBot' });
 let id = 1;
 
 bot.command('encode', ({ message, reply }) =>
@@ -36,3 +38,7 @@ bot.on('inline_query', ({ inlineQuery, answerInlineQuery }) => {
 });
 
 bot.startPolling();
+
+return bot;
+
+};
